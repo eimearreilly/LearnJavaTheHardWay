@@ -3,42 +3,54 @@
  */
 public class ex11_VariableChangeShortcuts {
      public static void main( String[] args ) {
-      int i, j, k;
-      i = 5;
-        6         j = 5;
-        7         k = 5;
-        8         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-        9         i =  i + 3;
-        10         j =  j - 3;
-        11         k =  k * 3;
-        12         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n" );
-        13
-        14         i = 5;
-        15         j = 5;
-        16         k = 5;
-        17         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-        18         i += 3;
-        19         j -= 3;
-        20         k *= 3;
-        21         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n" );
-        22
-        23         i = j = k = 5;
-        24         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-        25         i += 1;
-        26         j -= 2;
-        27         k *= 3;
-        28         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n" );
-        29
-        30         i = j = 5;
-        31         System.out.println( "i: " + i + "\tj: " + j );
-        32         i =+ 1; // Oops!
-        33         j =- 2;
-        34         System.out.println( "i: " + i + "\tj: " + j + "\n" );
-        35
-        36         i = j = 5;
-        37         System.out.println( "i: " + i + "\tj: " + j );
-        38         i++;
-        39         j--;
-        40         System.out.println( "i: " + i + "\tj: " + j );
-        41     }
+
+         int i, j, k;
+
+         i = 5;
+         j = 5;
+         k = 5;
+         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+         i =  i + 3;
+         j =  j - 3;
+         k =  k * 3;
+         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n" );
+
+         i = 5;
+         j = 5;
+         k = 5;
+         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+         i += 3;
+         j -= 3;
+         k *= 3;
+         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n" );
+
+         i = j = k = 5;
+         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+         i += 1;
+         j -= 2;
+         k *= 3;
+         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k + "\n" );
+
+         i = j = 5;
+         System.out.println( "i: " + i + "\tj: " + j );
+         i =+ 1; // Oops!
+         j =- 2;
+         System.out.println( "i: " + i + "\tj: " + j + "\n" );
+
+         i = j = 5;
+         System.out.println( "i: " + i + "\tj: " + j );
+         i++;
+         j--;
+         System.out.println( "i: " + i + "\tj: " + j );
+
+         // Code that resets i's value to 5.
+         i = 5;
+         // Use only -= to change i's value to 0.
+         i -= 5;
+         // Then on the line after that display i's new value on the screen
+         System.out.println(i);
+
+
+
+     }
 }
