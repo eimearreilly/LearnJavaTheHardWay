@@ -1,6 +1,12 @@
 /**
  * Created by eimearreilly on 31/01/2017.
  */
+
+/*
+Create a second array of Strings and use an initializer list to put several values into it.
+Then add a second foreach loop to display the values from the new array on the screen, one at a time.
+
+ */
 public class Ex48ArrayIntro {
 
     public static void main(String[] args) {
@@ -16,8 +22,3 @@ public class Ex48ArrayIntro {
     }
 }
 
-/*
-Create a second array of Strings and use an initializer list to put several values into it.
-Then add a second foreach loop to display the values from the new array on the screen, one at a time.
-
- */

@@ -6,6 +6,7 @@
 
 import java.util.Scanner;
 
+// Add a function to compute the area of a square. Add it to the menu as well.
 public class Ex37ShapeArea {
     public static void main (String [] args){
     Scanner keyboard = new Scanner(System.in);

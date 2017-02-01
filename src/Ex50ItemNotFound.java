@@ -1,6 +1,15 @@
 /**
  * Created by eimearreilly on 31/01/2017.
  */
+
+/*
+A different way to say that something is not in an array is to count the number of matches.
+Then, when the loop is over if the counter is still zero, you know it’s not there.
+Either create a new array with different values or change some of the names in the array of
+Greek mortal heroes so that there are some duplicates. Then add a second for loop that uses a counter to determine if a value is found.
+
+ */
+
 import java.util.Scanner;
 
 public class Ex50ItemNotFound {
@@ -34,10 +43,3 @@ public class Ex50ItemNotFound {
         }
     }
 }
-/*
-A different way to say that something is not in an array is to count the number of matches.
-Then, when the loop is over if the counter is still zero, you know it’s not there.
-Either create a new array with different values or change some of the names in the array of
-Greek mortal heroes so that there are some duplicates. Then add a second for loop that uses a counter to determine if a value is found.
-
- */

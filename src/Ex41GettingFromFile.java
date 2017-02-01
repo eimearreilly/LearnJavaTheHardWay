@@ -4,6 +4,12 @@ import java.io.File;
 /**
  * Created by eimearreilly on 30/01/2017.
  */
+
+/*
+Open the text file and change the name or numbers. Save it. Then run your program again (you
+don’t have to compile it again; the code hasn’t changed and it doesn’t open the file until it is run.)
+ */
+
 public class Ex41GettingFromFile {
     public static void main( String [] args) throws Exception{
         String name;
