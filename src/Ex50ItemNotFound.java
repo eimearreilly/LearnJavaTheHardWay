@@ -34,6 +34,8 @@ public class Ex50ItemNotFound {
         System.out.print( "Name any *mortal* hero from Greek mythology: " );
         guess = keyboard.next();
         found = false;
+
+
         for ( String hero : heroes ) {
             if ( guess.equals(hero) ) {
                 System.out.println( "That's one of them!" ); found = true;

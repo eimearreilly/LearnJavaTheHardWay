@@ -2,14 +2,19 @@
  * Created by eimearreilly on 31/01/2017.
  */
 
+import java.io.File;
 import java.util.Scanner;
 import java.net.URL;
+
+// Change the code to display both the lowest average daily temperature and and the highest.
+// downloaded dublin data
 
 public class Ex52LowestTemp {
     public static void main(String[] args) throws Exception {
         String urlbase = "https://learnjavathehardway.org/txt/";
         double[] temps = arrayFromUrl(urlbase+ "avg-daily-temps-atx.txt");
 
+        Scanner dublin = new Scanner(new File("dublin.txt"));
         System.out.println( temps.length + " temperatures in database.");
 
         double lowest = 9999.99;

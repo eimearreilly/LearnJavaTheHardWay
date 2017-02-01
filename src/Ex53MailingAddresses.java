@@ -1,6 +1,8 @@
 /**
  * Created by eimearreilly on 01/02/2017.
  */
+
+// Create a fourth Address variable online 10 and change the code to put your mailing address in it. Don’t forget to print it out at the bottom.
 class Address{
     String street;
     String city;
