@@ -3,6 +3,8 @@
  */
 import java.util.Scanner;
 
+// Using the technique of your choice, make this program work correctly even if the human types in words with different capitalization.
+
 public class ex23_DictionaryOrder {
     public static void main( String[] args ) {
         Scanner keyboard = new Scanner(System.in);
@@ -11,6 +13,7 @@ public class ex23_DictionaryOrder {
         System.out.print( "Make up the name of a programming language! " );
         // Note nextLine takes in multiple words unlike .next which only takes in one word
         name = keyboard.nextLine();
+        name.toLowerCase();
 
          if ( name.compareTo("c++") < 0 )
              System.out.println( name + " comes BEFORE c++" );

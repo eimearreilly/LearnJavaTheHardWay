@@ -1,6 +1,7 @@
 /**
  * Created by eimearreilly on 25/01/2017.
  */
+
 public class ex6_MathOperations {
     public static void main(String [] args){
         int a,b,c,d,e,f,g;

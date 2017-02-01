@@ -1,6 +1,13 @@
 /**
  * Created by eimearreilly on 25/01/2017.
+
+ Add a printing statement at the end of the code to display the sentence “I am learning Java the
+ Hard Way!” But break it up like line 19 so that you only have two or three words in each String
+ and plus signs between. Make sure the spaces get included!
+
  */
+
+
 public class ex3_PrintingChoices {
     public static void main(String [] args){
         System.out.println("Alpha");
@@ -21,12 +28,7 @@ public class ex3_PrintingChoices {
         System.out.println();
         System.out.println("This" + "" + "is" + "" + "a" + " test.");
 
-        /*
-        Add a printing statement at the end of the code to display the sentence “I am learning Java the Hard Way!”
-        But break it up like line 19 so that you only have two or three words in each String and plus signs between.
-        Make sure the spaces get included!
-         */
-
+        //Question 1
         System.out.println("I am " + "learning Java the " + "Hard Way!");
     }
 }

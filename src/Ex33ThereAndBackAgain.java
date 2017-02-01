@@ -6,7 +6,7 @@ import org.omg.CORBA.PUBLIC_MEMBER;
 // CAMEL CASE YO!!
 // there wasn't really an exercise of any substance for this class
 
-public class Ex32ThereAndBackAgain {
+public class Ex33ThereAndBackAgain {
     public static void main(String[] args){
         System.out.println("Here. ");
         erebor();

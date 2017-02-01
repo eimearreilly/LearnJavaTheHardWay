@@ -1,6 +1,15 @@
 /**
  * Created by eimearreilly on 25/01/2017.
  */
+
+    /*
+    Type something different that makes the program blow up on the second question.
+    What did you type? Put a comment at the bottom of the code saying something like
+    “// The 2nd question blows up when I type [BLANK].”
+    Type something that makes the program blow up on the third question.
+    What did you type? Put another comment at the bottom of the code explaining what value blew it up and why.
+     */
+
 import java.util.Scanner;
 
 public class ex7_ForgetfulMachine {
@@ -21,11 +30,5 @@ public class ex7_ForgetfulMachine {
         System.out.println("Is there anything else you would like to say?");
         keyboard.next();
     }
-    /*
-    Type something different that makes the program blow up on the second question.
-    What did you type? Put a comment at the bottom of the code saying something like
-    “// The 2nd question blows up when I type [BLANK].”
-    Type something that makes the program blow up on the third question.
-    What did you type? Put another comment at the bottom of the code explaining what value blew it up and why.
-     */
+
 }

@@ -6,7 +6,13 @@ public class ex2_GasolineReceipt {
     /*
     This receipt uses gasoline prices for Texas. Go back to your text editor and change the date and other details
     to better fit the area where you live. Then save it, compile it and run it again.
-     */
+
+
+
+ This receipt uses gasoline prices for Texas. Go back to your text editor and change the date and
+ other details to better fit the area where you live. Then save it, compile it and run it again.
+ */
+
 
     public static void main(String[] args){
         System.out.println("+------------------------+");
@@ -23,3 +29,4 @@ public class ex2_GasolineReceipt {
         System.out.println("+------------------------+");
     }
 }
+

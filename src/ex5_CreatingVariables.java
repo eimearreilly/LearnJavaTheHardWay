@@ -1,5 +1,8 @@
 /**
  * Created by eimearreilly on 25/01/2017.
+ *
+ * Add four more variables to the program: another integer, another double, and two Strings.
+ * Name them whatever you want. Give them values. Print them out.
  */
 public class ex5_CreatingVariables {
     public static void main(String[] args){
@@ -26,11 +29,8 @@ public class ex5_CreatingVariables {
         System.out.println( "Hopefully you have more than $" + checking + "!" );
         System.out.println( "My name's " + title + " " + firstName + lastName );
 
-        /*
-        Add four more variables to the program: another integer, another double, and two Strings.
-         Name them whatever you want. Give them values. Print them out.
-         */
 
+        // Question
         int myAge = 24;
         double myHeight = 5.3;
         String myfirstName = "Eimear";

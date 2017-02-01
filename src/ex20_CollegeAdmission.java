@@ -1,6 +1,7 @@
 /**
  * Created by eimearreilly on 26/01/2017.
  */
+
 import static java.lang.System.*;
 import java.util.Scanner;
 

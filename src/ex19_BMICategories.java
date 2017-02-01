@@ -8,6 +8,12 @@ Instead of making the human enter their BMI directly, allow them to
 type in their height and weight and compute the BMI for them.
 
  */
+// Remove the else from in front of the if statement on line 21.
+// Run the program, and enter 15.5 for the BMI.
+// Do you see how that makes the if statement on line 21 “break rank” and no longer care about
+// the if statements before
+
+    //Instead of making the human enteri their BMI directly , allow them to type in their height and weight nad compute the BMO for them
 public class ex19_BMICategories {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
@@ -45,7 +51,3 @@ public class ex19_BMICategories {
         }
     }
 
-// Remove the else from in front of the if statement on line 21.
-// Run the program, and enter 15.5 for the BMI.
-// Do you see how that makes the if statement on line 21 “break rank” and no longer care about
-// the if statements before

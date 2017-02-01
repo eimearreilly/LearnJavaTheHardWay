@@ -4,6 +4,8 @@
 
 import java.util.Scanner;
 
+// Rewrote the two loops to make them neater and shorter.
+
 public class ex26_HighLow {
     public static void main(String[] args){
 
